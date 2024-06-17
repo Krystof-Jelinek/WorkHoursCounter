@@ -1,0 +1,16 @@
+programy ktery se prodavaji zakazniku - jsou ruzne casove dlouhy - 
+na mesice - (3,6,9,12,18,24) moznost zadavat kolik a jak dlouhych programu pro vypocet
+
+u kazdyho programu miuze chodit nejcasteji 1 tydne nebo mene max 1 tydne si muze vynutit - chceme zadat hodnotu po kolik tydnech 
+bude prumerne dochazet na schuzkub prumer po dvou tydnech dojde na schuzku
+
+schuzka trva 30 minut
+uplne prvni schuzka trva 1 hodinu
+
+jestli se to dá stíhat ? --> kolik hodin je nutne venovat schuzkam ? presahne to maximum ? --> kdy ?
+
+pridat pocet lidi kteri meli dorazit ale nedorazili --> tim vyblokovali cas schuzky za nic --> 1 hodina
+
+----------------------------------
+
+program pocita ze vsechny prumerne schuzky dostane zakaznik v pocatecnim mesici -- neodpovida uplne asi realite kdyz treba by uzavrel na konci

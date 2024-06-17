@@ -1,0 +1,188 @@
+Mesic: 0 - leden 2020
+zrusene_schuzky:0
+3mesic:0
+6mesic:0
+9mesic:0
+12mesic:0
+18mesic:0
+24mesic:0
+
+Mesic: 1 - unor 2020
+zrusene_schuzky:0
+3mesic:1
+6mesic:0
+9mesic:0
+12mesic:0
+18mesic:0
+24mesic:0
+
+Mesic: 2
+zrusene_schuzky:0
+3mesic:0
+6mesic:0
+9mesic:0
+12mesic:0
+18mesic:0
+24mesic:0
+
+Mesic: 3
+zrusene_schuzky:0
+3mesic:0
+6mesic:0
+9mesic:0
+12mesic:0
+18mesic:0
+24mesic:0
+
+Mesic: 4
+zrusene_schuzky:0
+3mesic:1
+6mesic:0
+9mesic:0
+12mesic:0
+18mesic:0
+24mesic:0
+
+Mesic: 5
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 6
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 7
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 8
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 9
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 10
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 11
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 12
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 13
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 14
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 15
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 16
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 17
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 18
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 19
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
+
+Mesic: 20
+zrusene_schuzky:5
+3mesic:0
+6mesic:2
+9mesic:0
+12mesic:3
+18mesic:3
+24mesic:2
