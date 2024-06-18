@@ -60,25 +60,44 @@ class CTimerManager{
     }
 
     void inicialize(){
-        cout << "---------------------- Načítám ze souboru ----------------------" << endl;
+        cout << "Prosím zadejte kompletní jméno souboru ze kterého se mají načíst data (zadejte x pro přeskočení)" << endl;
 
-        ifstream MyReadFile("data.txt");
-        while(!MyReadFile.eof()){
-            count_month_hours_from_file(MyReadFile);
+        string filename;
+
+        cin >> filename;
+
+        if(filename == "x"){
+            cout << "---------------------- Přeskočení načítání ze souboru ----------------------" << endl << endl;
+            return;
+        }
+
+        cout << "---------------------- Načítám ze souboru "+ filename + " ----------------------" << endl;
+
+        ifstream MyReadFile(filename);
+        if(!MyReadFile.is_open()){
+            cout << "Tento soubor neexistuje, zkontrolujte správně zadaný název a že je soubor umísteň ve stejném adresáři" << endl;
+            cout << "Pokračuji bez načítání ze souboru" << endl;
+        }
+        else{
+            while(!MyReadFile.eof()){
+                count_month_hours_from_file(MyReadFile);
+            }
         }
 
         cout << "---------------------- Konec načítání ze souboru ----------------------" << endl << endl;
     }
 
     void count_month_hours(){
+        cout << "Měsíc číslo: " + to_string(cur_month) << endl << endl;
+
         cout << "---------------------- Vstup měsíčních dat ----------------------" << endl;
-        cout << "Počet Lidí kteří zrušili vstupní domluvenou hodinovou schůzku:";
+        cout << "Počet Lidí kteří zrušili vstupní domluvenou hodinovou schůzku: ";
         int wasted_hours = 0;
         cin >> wasted_hours;
 
         cout << "Prosím zadejte programy přijaté v tomto měsíci:" << endl;
         for(int mesice = 3; mesice <= 24;){
-           cout << "Akutální počet " + to_string(mesice) + " měsíčních programů:";
+           cout << "Akutální počet prodaných " + to_string(mesice) + " měsíčních programů: ";
             int program_number = 0;
             cin >> program_number;
             for(int i = 0; program_number > i; program_number--){
@@ -133,10 +152,9 @@ class CTimerManager{
 
         montly_hours += wasted_hours;
         worst_case_hours += wasted_hours;
-        cout << "Měsíc číslo: " + to_string(cur_month) << endl;
-        cout << "V Tomto měsící je nutné si v průmerném případě vyhradit na schůze " + to_string(montly_hours) + " hodin" << endl;
-        cout << "V Tomto měsící je nutné si v nejhorším případě vyhradit na schůze " + to_string(worst_case_hours) + " hodin" << endl;
-        cout << "---------------------- Konec Měsíce ----------------------" << endl << endl;
+        cout << "V Tomto měsící je nutné si v průmerném případě vyhradit na schůze " + to_string(montly_hours) + " hodin " + "(" + to_string(montly_hours/4) + " tydne)" << endl;
+        cout << "V Tomto měsící je nutné si v nejhorším případě vyhradit na schůze " + to_string(worst_case_hours) + " hodin " + "(" + to_string(worst_case_hours/4) + " tydne)" << endl;
+        cout << "---------------------- Konec Měsíce číslo: "+ to_string(cur_month) + " ----------------------" << endl << endl;
         cur_month++;
     }
 
@@ -147,7 +165,7 @@ class CTimerManager{
         //get rid of month line
         getline(filestream, input_line);
 
-        cout << input_line << endl;
+        cout << input_line << endl << endl;
         cout << "---------------------- Vstup měsíčních dat ----------------------" << endl;
         cout << "Počet Lidí kteří zrušili vstupní domluvenou hodinovou schůzku:";
         int wasted_hours = 0;
@@ -159,7 +177,7 @@ class CTimerManager{
 
         cout << "Prosím zadejte programy přijaté v tomto měsíci:" << endl;
         for(int mesice = 3; mesice <= 24;){
-            cout << "Akutální počet " + to_string(mesice) + " měsíčních programů:";
+            cout << "Akutální počet prodaných " + to_string(mesice) + " měsíčních programů:";
             int program_number = 0;
             getline(filestream, input_line);
             if(mesice < 10){
@@ -224,9 +242,9 @@ class CTimerManager{
 
         montly_hours += wasted_hours;
         worst_case_hours += wasted_hours;
-        cout << "V Tomto měsící je nutné si v průmerném případě vyhradit na schůze " + to_string(montly_hours) + " hodin" << endl;
-        cout << "V Tomto měsící je nutné si v nejhorším případě vyhradit na schůze " + to_string(worst_case_hours) + " hodin" << endl;
-        cout << "---------------------- Konec Měsíce ----------------------" << endl << endl;
+        cout << "V Tomto měsící je nutné si v průmerném případě vyhradit na schůze " + to_string(montly_hours) + " hodin " + "(" + to_string(montly_hours/4) + " tydne)" << endl;
+        cout << "V Tomto měsící je nutné si v nejhorším případě vyhradit na schůze " + to_string(worst_case_hours) + " hodin " + "(" + to_string(worst_case_hours/4) + " tydne)" << endl;
+        cout << "---------------------- Konec Měsíce číslo: "+ to_string(cur_month) + " ----------------------" << endl << endl;
         cur_month++;
     }
 
